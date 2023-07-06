@@ -12,4 +12,20 @@ public class SampleApi : ServiceBase<ISampleApi>, ISampleApi
         await Task.Delay(10);
         return x + y;
     }
+
+    public async Task<ServerStreamingResult<int>> Repeat(int value, int count)
+    {
+        // Server Streaming通信は、1リクエストに対して複数のレスが返ってくるもの
+        Console.WriteLine($"(value, count) = ({value}, {count})");
+
+        // WriteAsyncする度レスポンスが帰ってくる
+        var streaming = GetServerStreamingContext<int>();
+        foreach (var x in Enumerable.Repeat(value, count))
+        {
+            await streaming.WriteAsync(x);
+        }
+
+        // 完了信号を返す
+        return streaming.Result();
+    }
 }
