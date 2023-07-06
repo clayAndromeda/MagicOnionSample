@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnionSample.ServiceDefinition", "MagicOnionSample.ServiceDefinition\MagicOnionSample.ServiceDefinition.csproj", "{CA0C93E8-4B6C-4AD1-9B3A-C6B4AC750D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnionSample.Client", "MagicOnionSample.Client\MagicOnionSample.Client.csproj", "{157E1D03-9722-4EF3-861E-4FF3BC0517A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicOnionSample.Server", "MagicOnionSample.Server\MagicOnionSample.Server.csproj", "{12435951-5DD9-4D03-A242-C5E92BF9CA0A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA0C93E8-4B6C-4AD1-9B3A-C6B4AC750D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA0C93E8-4B6C-4AD1-9B3A-C6B4AC750D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA0C93E8-4B6C-4AD1-9B3A-C6B4AC750D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA0C93E8-4B6C-4AD1-9B3A-C6B4AC750D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157E1D03-9722-4EF3-861E-4FF3BC0517A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157E1D03-9722-4EF3-861E-4FF3BC0517A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157E1D03-9722-4EF3-861E-4FF3BC0517A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157E1D03-9722-4EF3-861E-4FF3BC0517A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12435951-5DD9-4D03-A242-C5E92BF9CA0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12435951-5DD9-4D03-A242-C5E92BF9CA0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12435951-5DD9-4D03-A242-C5E92BF9CA0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12435951-5DD9-4D03-A242-C5E92BF9CA0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
